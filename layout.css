@@ -1,0 +1,92 @@
+html, body {
+	font-family: "Raleway", sans-seif;
+	width: 100%;
+	padding-top: 0px;
+	margin: 0px;
+}
+#header {
+	padding-bottom: 7px;
+	background-color: black;
+	height: 60px;
+	width: 100%;
+}
+
+#spartalogo {
+	margin-left: 30px;
+	margin-right: 40px;
+	height: 60px;
+	width: 90px;
+}
+
+.buttons {
+	margin-bottom: 30px;
+	text-decoration-color: black;
+	color: white;
+}
+
+#main {
+	width: 100%;
+}
+#left {
+	padding-top: 50px;
+	float: left;
+	width: 30%;
+	font-size: 14px;
+	text-align: center;
+}
+#headshot {
+	height: 240px;
+	width: 240px;
+	border-radius: 50%;
+}
+
+#titleleft {
+	padding-top: 200px;
+}
+.skillz {
+	font-size: 15px;
+	width: 70%;
+	text-align: left;
+}
+
+.history {
+	text-align: left;
+	width: 70%;
+	margin-left: 25px;
+}
+
+#right {
+	float: right;
+	width: 70%;
+	font-size: 14px;
+}
+#titleright {
+	color: red;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+
+#main {
+	width: 100%;
+}
+#left {
+	float: none;
+	width: 80%;
+}
+#right {
+	padding-top: 20px;
+	float: bottom;
+	width: 100%;
+}
+#header {
+	float: none;
+	height: 60px;
+	width: 100%;
+}
+.skillz {
+	text-align: center;
+}
+.history {
+	text-align: center;
+}
