@@ -1,3 +1,5 @@
+
+
 #headshot {
 	margin-top: 35px;
 }
@@ -5,21 +7,72 @@
 	color: #E13A63;
 }
 .small-panel {
-	margin-left: 80px;
+	padding-left: 60px;
+	border-right: 75px;
 }
-.text-align-ceter{
-	text-align: center;
-.
+
+#make-it-sit {
+	padding-left: 75px;
 }
+
+#make-sit {
+	padding-left: 90px;
+}
+
+#skills {
+	margin-left: 10px;
+	padding-right: 0px;
+}
+
+#skills ul {
+	padding: 0px;
+	margin-top: 30px;
+}
+
+#skills ul li {
+	margin-bottom: 5px;
+	font-size: 1.1em;
+	margin-top: 15px;
+}
+
 .font-rale {
 	font-family: Raleway;
 }
 
-#make-it-sit {
-	margin-left: 75px;
-}
+
 .h1, .h2, .h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 800px) {
+
+#logo {
+	width:100px;
+	margin-top:7px;
+}
+
+/* BOOTSTRAP OVERRIDES */
+
+.navbar-default {
+	background-color:#01181b;
+	border-radius:0px;
+	border-color:transparent;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	height:50px;
+	padding-top:0px;
+	line-height: 50px;
+}
+
+.navbar-default .navbar-nav .active a {
+	background-color:transparent;
+	color:#E13A63;
+}
+
+.navbar-nav li,
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav .active li a:hover {
+	background-color:transparent;
+	color:white;
+}
